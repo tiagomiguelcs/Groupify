@@ -7,6 +7,12 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.resolve(__dirname, '../client/build')));
 
+/* Downloads groups by course id */
+app.get('/api/v1/download/:course_id', function(req, res){
+  const file = __dirname+"/groups_"+ req.params.course_id +".csv"
+  res.download(file); // Set disposition and send it.
+});
+
 /* Get the number of groups registered */
 app.get("/api/v1/groups/:course_id", (req, res) => {
   var size = 0

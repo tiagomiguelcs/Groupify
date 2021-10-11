@@ -7,15 +7,15 @@ A barebones Web App to manage student groups.
 
 <img src="https://github.com/tiagomiguelcs/groupify/blob/master/demo.png"/>
 
-# Installation 
+# Installation - Development Env. Only
 After installing node.js type the following set of commands:
 ```
 git clone https://github.com/tiagomiguelcs/groupify.git
 cd groupify
-npm run deploy
+npm install && cd client/ && npm install
 ```
 
-# Usage Example
+# Usage Example - Development Env. Only
 To start the server and the client type the following commands inside the ```groupify``` folder:
 ```
 npm run server
