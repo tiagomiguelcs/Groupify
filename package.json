@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "node server/index.js",
-    "client": "cd client/ && npm start",
-    "deploy": "npm install && cd client/ && npm install && cd ..",
+    "start": "node server/index.js",
     "build": "cd client && npm install && npm run build"
   },
   "engines":{
