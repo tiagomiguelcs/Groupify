@@ -1,0 +1,69 @@
+.app {
+  background-color: #3f4653;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: medium;
+  color: white;
+}
+
+.card-header{
+  background-color: #4CAF50;
+  color: white;
+  text-transform: uppercase;
+}
+
+.card-header-content{
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.form-container{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.textfield-container{
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.stats-container{
+  display: flex;
+  gap: 20px;
+}
+
+.stats-students{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.stats-groups{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.stats-groups label{
+  font-size: small;
+  font-weight: bold;
+}
+
+.stats-students label{
+  font-size: small;
+  font-weight: bold;
+}
+
+.progress-bar-container{
+  width: 100px;
+  height: 100px;
+  border: 0;
+}
