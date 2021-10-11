@@ -15,7 +15,7 @@ function App() {
   // ********************************************************************************************
   // Teacher Defined Settings
   // ********************************************************************************************
-  const shifts  = ["TP1", "TP2", "TP3", "TP4"];    // Array of shifts / turnos.
+  const shifts  = ["PL1", "PL2", "PL3", "PL4"];    // Array of shifts / turnos.
   const courses = ["Laboratórios de Programação"]; // Array of courses to register groups.
   const number_of_students = 111;                  // Number of students enrolled in the course.
   const min = 2;                                   // Min number of students in a group.
