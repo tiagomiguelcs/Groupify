@@ -4,6 +4,7 @@ const app = express();
 const fs = require("fs");
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
+app.use(express.static(path.resolve(__dirname, '../client/build')));
 
 /* Get the number of groups registered */
 app.get("/api/v1/groups/:course_id", (req, res) => {
@@ -42,6 +43,11 @@ app.post("/api/v1/groups", (req, res) => {
   /* Returns as response the group id assigned to the students */
   res.json({ message: group_id });
   
+});
+
+// All other GET requests not handled before will return our React app
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, '../client/build', 'index.html'));
 });
 
 app.listen(PORT, () => {

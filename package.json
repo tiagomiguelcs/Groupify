@@ -6,7 +6,11 @@
   "scripts": {
     "server": "node server/index.js",
     "client": "cd client/ && npm start",
-    "deploy": "npm install && cd client/ && npm install && cd .."
+    "deploy": "npm install && cd client/ && npm install && cd ..",
+    "build": "cd client && npm install && npm run build"
+  },
+  "engines":{
+    "node": "12.21.0"
   },
   "keywords": [],
   "author": "",
