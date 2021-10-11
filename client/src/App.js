@@ -13,11 +13,11 @@ import Popup from './Popup';
 
 function App() {
   // ********************************************************************************************
-  // Teacher Settings
+  // Teacher Defined Settings
   // ********************************************************************************************
-  const shifts  = ["TP1", "TP2", "TP2"];           // Array of shifts / turnos.
+  const shifts  = ["TP1", "TP2", "TP3", "TP4"];    // Array of shifts / turnos.
   const courses = ["Laboratórios de Programação"]; // Array of courses to register groups.
-  const number_of_students = 109;                  // Number of students enrolled in the course.
+  const number_of_students = 111;                  // Number of students enrolled in the course.
   const min = 2;                                   // Min number of students in a group.
   const max = 6;                                   // Max number of students in a group.
   // ********************************************************************************************
