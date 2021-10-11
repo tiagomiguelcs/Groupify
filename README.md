@@ -1,4 +1,5 @@
 # Groupify
+![](https://img.shields.io/badge/JavaScript-3776AB?style=for-the-badge&logo=javascript&logoColor=white)
 ![](https://img.shields.io/badge/Node.js-3776AB?style=for-the-badge&logo=node.js&logoColor=white)
 ![](https://img.shields.io/badge/React-97ca00?style=for-the-badge&logo=react&logoColor=white)
 
