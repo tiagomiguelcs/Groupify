@@ -141,7 +141,7 @@ function App() {
                     {group.length !== 1 && <Button variant="contained" disableElevation style={{fontWeight: "bold"}} color="error" onClick={() => handleRemove(i)}>X</Button>}
                   </div>
                 <p>
-                {group.length - 1 === i &&  <Button variant="contained" disableElevation style={{width:"100%", fontWeight:"bold"}} onClick={createGroup}>Registar Grupo / Add Group</Button>}
+                {group.length - 1 === i &&  <Button variant="contained" disableElevation style={{width:"100%", fontWeight:"bold"}} onClick={createGroup}>Registar Grupo</Button>}
                 </p>
               </div>
             );
