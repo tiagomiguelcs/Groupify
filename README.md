@@ -4,7 +4,7 @@
 ![](https://img.shields.io/badge/Node.js-3776AB?style=for-the-badge&logo=node.js&logoColor=white)
 ![](https://img.shields.io/badge/React-97ca00?style=for-the-badge&logo=react&logoColor=white)
 
-A barebones Web App to manage student groups.
+A barebones Web App to manage student groups that is easily deployable on [Heroku](https://www.heroku.com/).
 
 <img src="https://github.com/tiagomiguelcs/groupify/blob/master/demo.png"/>
 
