@@ -9,13 +9,14 @@
     "client": "cd client/ && npm start",
     "build": "cd client && npm install && npm run build"
   },
-  "engines":{
+  "engines": {
     "node": "12.21.0"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
   }
 }
