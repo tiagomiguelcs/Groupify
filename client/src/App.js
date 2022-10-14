@@ -17,7 +17,7 @@ function App() {
   // ********************************************************************************************
   const shifts  = ["PL1", "PL2", "PL3", "PL4"];    // Array of shifts / turnos.
   const courses = ["Laboratórios de Programação"]; // Array of courses to register groups.
-  const number_of_students = 109;                  // Number of students enrolled in the course.
+  const number_of_students = 116;                  // Number of students enrolled in the course.
   const min = 2;                                   // Min number of students in a group.
   const max = 6;                                   // Max number of students in a group.
   // ********************************************************************************************
