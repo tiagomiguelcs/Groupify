@@ -15,11 +15,11 @@ function App() {
   // ********************************************************************************************
   // Teacher Defined Settings
   // ********************************************************************************************
-  const shifts  = ["PL1", "PL2", "PL3", "PL4"];    // Array of shifts / turnos.
-  const courses = ["Laboratórios de Programação"]; // Array of courses to register groups.
-  const number_of_students = 116;                  // Number of students enrolled in the course.
+  const shifts  = ["PL1"];    // Array of shifts / turnos.
+  const courses = ["Serviços e Interfaces para a Cloud"]; // Array of courses to register groups.
+  const number_of_students = 27;                   // Number of students enrolled in the course.
   const min = 2;                                   // Min number of students in a group.
-  const max = 6;                                   // Max number of students in a group.
+  const max = 3;                                   // Max number of students in a group.
   // ********************************************************************************************
   //
   const version = "0.1";
